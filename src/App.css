@@ -1,38 +1,178 @@
-.App {
+
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+
+/* Variables */
+:root{
+  --header-height: 3rem;
+
+
+  /* Colors */
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --text-color: hsl(var(--hue), var(--sat), 46%%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+
+  /* Fonts and typography */
+  --body-font: 'Poppins', sans-serif;
+
+  /* Font size */
+  --biggest-font-size: 2.25rem;
+  --bigger-font-size: 1.5rem;
+  --h1-font-size: 1.25rem;
+  --h2-font-size: 1.125rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+  --smallest-font-size: .625rem;
+
+  /* Font weight */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-normal: 400;
+
+  /* Margin and padding */
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /* z-index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+
+  /*responsive typography*/
+  --big-font-size: 1.25rem;
+  --h1-font-size: 1.125rem;
+  --h2-font-size: 1rem;
+  --h3-font-size: .875rem;
+  --normal-font-size: .813rem;
+  --small-font-size: .75rem;
+  --smaller-font-size: .625rem;
+
+
+}
+
+/* base */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, textarea, button{
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body{
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+
+/* Reusable Css Classes*/
+
+.section{
+  padding: 4rem 0;
+}
+
+.section__title{
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section__subtitle{
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 4rem;
+}   
+
+.section__subtitle,.section__subtitle{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*layout*/    
+
+.container{
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid{
+  display: grid;
+  gap: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/*buttons*/
+.button{
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: .75rem 2rem;
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.button:hover{
+  filter: brightness(110%);
+  background-color: var(--title-color-dark);
+}
+
+.button__icon{
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex{
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/*breakpoints*/ 
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 992px){}
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 350px){}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
