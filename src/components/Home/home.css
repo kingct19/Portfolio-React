@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.home__container {
+  row-gap: 7rem;
+}
+
 .home__img {
   background: url(../../Assets/Profile.jpg);
   background-repeat: no-repeat;
@@ -52,9 +56,9 @@
 
 .home__subtitle {
   position: relative;
-  padding-left: 5.4rem;
+  padding-right: 5.4rem;
   font-weight: var(--font-normal);
-  font-size: var(--h3-font-size);
+  font-size: var(--h1-font-size);
   margin-bottom: var(--mb-1);
 }
 
@@ -71,4 +75,45 @@
 .home__description {
   max-width: 400px;
   margin-bottom: var(--mb-3);
+  font-size: var(--font-normal);
+}
+
+.Wave__icon {
+  padding-left: 0.3rem;
+}
+
+.Send__icon {
+  padding-left: 0.3rem;
+}
+
+.home__scroll {
+  margin-left: 9.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.Mouse__icon {
+  animation: mouse__animate 1.5s ease-in-out infinite;
+}
+
+@keyframes mouse__animate {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(10px);
+  }
+}
+
+.home__scroll-name {
+  font-size: var(--font-medium);
+  color: var(--title-color);
+  margin-right: var(--mb-0-25);
+  margin-left: 2px;
+}
+
+.home__scroll-arrow {
+  font-size: 1.5rem;
+  color: var(--title-color);
 }
