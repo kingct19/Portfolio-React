@@ -8,10 +8,10 @@
   /* Colors */
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --text-color: hsl(var(--hue), var(--sat), 46%%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --title-color: hsl(var(--hue), var(--sat), 100%);
+  --text-color: hsl(var(--hue), var(--sat), 90%);
+  --body-color: hsl(var(--hue), var(--sat), 10%);
+  --container-color: #000000;
 
   /* Fonts and typography */
   --body-font: "Poppins", sans-serif;
@@ -156,7 +156,7 @@ html {
 }
 
 .button:hover {
-  background-color: black;
+  background-color: rgb(11, 213, 102);
 }
 
 .button__icon {
