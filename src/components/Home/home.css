@@ -58,7 +58,7 @@
   position: relative;
   padding-left: 5.4rem;
   font-weight: var(--font-normal);
-  font-size: var(--h1-font-size);
+  font-size: var(--h2-font-size);
   margin-bottom: var(--mb-1);
 }
 
@@ -159,7 +159,7 @@
   }
 
   .home__subtitle::before {
-    width: 20px;
+    width: 60px;
     top: 0.875rem;
   }
 
@@ -186,10 +186,5 @@
   .Wave__icon {
     width: 20px;
     height: 20px;
-  }
-
-  .button button--flex {
-    font-size: 1.875rem;
-    text-decoration: black;
   }
 }
