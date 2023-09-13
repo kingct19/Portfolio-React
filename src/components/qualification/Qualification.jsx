@@ -50,12 +50,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Computer Science</h3>
+                <h3 className="qualification__title">High School Diploma</h3>
                 <span className="qualification__subtitle">
-                  Texas A&M University-Commerce
+                  Hughes Springs High School
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019-2020
+                  <i className="uil uil-calendar-alt"></i> 2008-2019
                 </div>
               </div>
 
@@ -73,47 +73,14 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Computer Science</h3>
+                <h3 className="qualification__title">
+                  Degree in Computer Science
+                </h3>
                 <span className="qualification__subtitle">
                   Texas A&M University-Commerce
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019-2020
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Computer Science</h3>
-                <span className="qualification__subtitle">
-                  Texas A&M University-Commerce
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019-2020
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Computer Science</h3>
-                <span className="qualification__subtitle">
-                  Texas A&M University-Commerce
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019-2020
+                  <i className="uil uil-calendar-alt"></i> 2019-2024
                 </div>
               </div>
             </div>
@@ -128,12 +95,14 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Computer Science</h3>
+                <h3 className="qualification__title">
+                  Programming Mobile Devices
+                </h3>
                 <span className="qualification__subtitle">
                   Texas A&M University-Commerce
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019-2020
+                  <i className="uil uil-calendar-alt"></i> Summer 1 2023
                 </div>
               </div>
 
@@ -151,24 +120,24 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Computer Science</h3>
+                <h3 className="qualification__title">Info Security</h3>
                 <span className="qualification__subtitle">
                   Texas A&M University-Commerce
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019-2020
+                  <i className="uil uil-calendar-alt"></i> Spring 2023
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Computer Science</h3>
+                <h3 className="qualification__title">Computer Networks</h3>
                 <span className="qualification__subtitle">
                   Texas A&M University-Commerce
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019-2020
+                  <i className="uil uil-calendar-alt"></i> Spring 2023
                 </div>
               </div>
 
@@ -186,12 +155,88 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Computer Science</h3>
+                <h3 className="qualification__title">Computer Architecture</h3>
                 <span className="qualification__subtitle">
                   Texas A&M University-Commerce
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2019-2020
+                  <i className="uil uil-calendar-alt"></i> Spring 2023
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Ethics, Law, and Cyber Security
+                </h3>
+                <span className="qualification__subtitle">
+                  Texas A&M University-Commerce
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Spring 2023
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  Applied Data Analytics with Python
+                </h3>
+                <span className="qualification__subtitle">
+                  Texas A&M University-Commerce
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Fall 2022
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Operating Systems</h3>
+                <span className="qualification__subtitle">
+                  Texas A&M University-Commerce
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Fall 2022
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  App Software Project Dev
+                </h3>
+                <span className="qualification__subtitle">
+                  Texas A&M University-Commerce
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Spring 2022
                 </div>
               </div>
             </div>

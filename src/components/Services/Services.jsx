@@ -17,7 +17,7 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i class="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">Front-End development</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -44,24 +44,24 @@ const Services = () => {
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Front-end Development</p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Web Development</p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Mobile Application Development
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Back-end Development</p>
                 </li>
               </ul>
@@ -71,7 +71,7 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i class="uil uil-arrow services__icon"></i>
+            <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">Back-End development</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -108,14 +108,14 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Mobile Application Development
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Back-end Development</p>
                 </li>
               </ul>
@@ -125,7 +125,7 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i class="uil uil-arrow services__icon"></i>
+            <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">Cyber Security</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -152,24 +152,24 @@ const Services = () => {
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Front-end Development</p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Web Development</p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Mobile Application Development
                   </p>
                 </li>
 
                 <li className="services__modal-service">
-                  <i class="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Back-end Development</p>
                 </li>
               </ul>
