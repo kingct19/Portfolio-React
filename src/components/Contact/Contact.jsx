@@ -13,7 +13,7 @@ const Contact = () => {
 
           <div className="contact__info">
             <div className="contact__card">
-              <i className="bx bx-mail-send contact_card-icon"></i>
+              <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data"></span>
 
@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__card">
-              <i className="bx bx-phone contact_card-icon"></i>
+              <i className="bx bx-phone contact__card-icon"></i>
               <h3 className="contact__card-title">Call</h3>
               <span className="contact__card-data"></span>
 
@@ -35,7 +35,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__card">
-              <i className="bx bx-linkedin contact_card-icon"></i>
+              <i className="bx bx-linkedin contact__card-icon"></i>
               <h3 className="contact__card-title">LinkedIn Profile</h3>
               <span className="contact__card-data"></span>
 
