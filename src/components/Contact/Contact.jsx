@@ -29,7 +29,7 @@ const Contact = () => {
               <span className="contact__card-data"></span>
 
               <a href className="contact__buttton">
-                9034244805
+                903-424-4805
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -52,6 +52,16 @@ const Contact = () => {
 
           <form className="contact__form">
             <div className="contact__form-div">
+              <label className="contact__form-tag">Name</label>
+              <input
+                type="text"
+                name="name"
+                className="contact__form-input"
+                placeholder="Insert Name"
+              />
+            </div>
+
+            <div className="contact__form-div">
               <label className="contact__form-tag">Email</label>
               <input
                 type="email"
@@ -61,7 +71,7 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact__form-div">
+            <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Leave A Message</label>
               <textarea
                 name="project"
