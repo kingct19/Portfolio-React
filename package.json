@@ -3,7 +3,6 @@
   "name": "my-port",
   "version": "0.1.0",
   "private": true,
-
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.427",
