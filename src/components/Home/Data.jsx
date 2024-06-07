@@ -20,9 +20,9 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">CS Student</h3>
       <p className="home__description">
-        Hello, Im a full time computer science student at Texas A&M-Commerce.
-        Welcome to my Portfolio. I am currently looking for an internship for
-        Full-Stack Web Development.
+        Hello, Im a full time grad student studying <b>Computer Science</b> at
+        Texas A&M-Commerce. Welcome to my Portfolio. I am currently looking to
+        start my career as a <b>junior developer.</b>
       </p>
 
       <a href="#Contact" className="button button--flex">

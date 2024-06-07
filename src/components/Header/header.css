@@ -48,7 +48,7 @@
 /*active link*/
 .active-link,
 .nav__link:hover {
-  color: var(--title-color-dark);
+  color: gold;
 }
 
 /*breakpoint*/

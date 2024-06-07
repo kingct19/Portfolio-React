@@ -9,6 +9,10 @@
   row-gap: 7rem;
 }
 
+b {
+  color: gold;
+}
+
 .home__img {
   background: url(../../Assets/Chan.jpg);
   background-repeat: no-repeat;
