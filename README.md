@@ -2,7 +2,7 @@
 
 
 
-![alt text](https://github.com/[kingct19/Portfolio-React/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/[kingct19/Portfolio-React/blob/master/image.jpg?raw=true)
 
 
 
